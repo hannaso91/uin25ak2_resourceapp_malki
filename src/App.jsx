@@ -5,11 +5,13 @@ import ResourceCard from "./components/ResourceCard";
 
 function App() {
   return (
+    <>
     <Layout>
       <Routes>
-        <Route path="/category/:category" element={<ResourceCard />} />
+        <Route path="/:slug" element={<ResourceCard />} />
       </Routes>
     </Layout>
+    </>
   );
 }
 
