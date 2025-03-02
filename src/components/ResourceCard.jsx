@@ -17,7 +17,7 @@ export default function ResourceCard() {
                         <Link to={resource.url}>Les mer her</Link>
                     </li>
                 </ul>
-
+            {/**/}
             </article>
         ))}
     </>
